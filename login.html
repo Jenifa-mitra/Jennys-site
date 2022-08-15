@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+        @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+       *{
+           font-family: 'STIX Two Math', serif;
+       }
+    body{
+      background-image: url("image7.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position:center;
+      background-size: cover;
+      /* margin: 200px; */
+    }
+    div{
+        /* border: 4px solid black; */
+        width: 500px;
+        height: 450px;
+        margin: auto ;
+        margin-top: 150px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        /* font-weight: bold; */
+        background-color: rgba(0, 0, 0, 0.5);
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        box-shadow:5px 10px 20px 10px black ;
+     
+    }
+    input{
+      width: 90%;
+      height: 50px;
+      font-size: 20px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid rgb(21, 240, 21);
+      outline: none;
+      color: white;
+      font-weight: bold;
+      
+    }
+    button{ 
+        background-color: rgb(255 255 255 / 0%);
+        color: white;
+        padding: 5px 50px;
+        border-radius: 5px;
+        border-color: rgb(32, 194, 172);
+        font-size: 15px;
+        /* margin-right: 300px; */
+        margin-top: 30px;
+        display: inline-block;
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+.img-container img {
+width: 25%;
+height: 30%;
+}
+.container{
+    transition: all 3s ease-in-out ;
+}
+.container:hover{
+    transform: rotate(360deg) ;
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img-container">
+            <p>LOGIN</p>
+            <img src="image1.jpg" >
+            <input type="email" placeholder="Enter your Email address">
+            <br>
+            <input type="password" placeholder="Enter your Password">
+            <br>
+            <button type="submit">Log in</button> 
+            <button ><a href="Registration_Form.html">Register</button></a>
+        </div>
+    </div>
+</body>
+</html>
